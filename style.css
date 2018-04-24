@@ -1,0 +1,297 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+#navbar
+{
+	height: 60px;
+	background-color: white;
+	position: relative;
+	margin: 5px;
+}
+
+#navbar .grab-logo
+{
+	width: 80px;
+	position: absolute;
+	top: 10px;
+	left: 5%;
+}
+
+#navbar #navbar-left ul li
+{
+	display: inline;
+	margin: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+#navbar #navbar-left ul
+{
+	position: absolute;
+	top: 15px;
+	font-size: 20px;
+	font-weight: 500;
+	left: 150px;
+}
+
+#navbar .grab-pay
+{
+	width: 100px;
+	position: absolute;
+	margin: 10px;
+	left: 520px;
+}
+
+#navbar-right #box
+{
+	width: 200px;
+	border: solid green;
+	border-radius: 5px;
+	position: absolute;
+	right: 380px;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	color: green;
+	top: 5px;
+}
+
+#navbar #navbar-right ul li
+{
+	display: inline;
+	margin: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+#navbar #navbar-right ul
+{
+	position: absolute;
+	top: 15px;
+	font-size: 20px;
+	font-weight: 500;
+	right: 150px;
+}
+
+#language
+{
+	position: absolute;
+	top: 15px;
+	font-size: 20px;
+	font-weight: 500;
+	right: 50px;
+}
+
+#banner
+{
+	height: 560px;
+	position: relative;
+}
+
+#banner .img-banner
+{
+	width: 100%;
+}
+
+#banner ul
+{
+	position: absolute;
+	top: 10px;
+	margin: 10%;
+}
+
+
+#banner ul li 
+{
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	font-family: arial;
+	list-style-type: none;
+}
+
+#banner p
+{
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	margin: 13%;
+	top: 110px;
+}
+
+#download-button
+{
+	width: 250px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	position: absolute;
+	top: 170px;
+	margin: 12%;
+	color: white;
+	font-size: 20px;
+	background-color: #2fbd2f;
+}
+
+#download-button:hover
+{
+	cursor: pointer;
+	color: #89928975;
+}
+
+#mobile
+{
+	height: 900px;
+	background-color: none;
+	position: relative;
+}
+
+#mobile #title
+{
+	width: 100%;
+	text-align: center;
+	margin: 50px;
+}
+
+#mobile #title h1
+{
+	color: #2fbd2f;
+	font-size: 40px;
+	margin: 20px;
+}
+
+#mobile #title a
+{
+	font-size: 20px;
+}
+
+#phone-app
+{
+	position: absolute;
+	left: 250px;
+}
+
+#phone-app .img-phone img
+{
+	width: 60%;
+	background-color: transparent;
+	z-index: 1;
+}
+
+#phone-app .app-picture
+{
+	position: absolute;
+	top: 89px;
+	left: 146px;
+}
+#phone-app .app-picture
+{
+	z-index: -1;
+}
+
+#steps
+{
+	position: absolute;
+	right: 10px;
+}
+
+.steps-button
+{
+	border: solid thin #23d62a;
+	border-radius: 50%;
+	background-color: white;
+	color: #23d62a;
+	font-size: 16px;
+}
+
+.steps-title
+{
+	margin: 20px;
+	bottom: 20px;
+	font-size: 20px;
+	font-weight: 700;
+
+}
+
+.steps-body
+{
+	margin: 0px 0px 150px 40px;
+	font-size: 16px;
+	font-family: arial;
+}
+
+.steps-title:hover
+{
+	color: #23d62a;
+}
+
+.steps-title:hover .steps-button
+{
+	background-color: #23d62a;
+	color: white;
+}
+
+#user-guide
+{
+	height: 460px;
+	background-color: #50c550;
+	position: relative;
+}
+
+#user-guide h1
+{
+	color: white;
+	text-align: center;
+	top: 50px;
+}
+
+.learn-button
+{
+	width: 250px;
+	height: 50px;
+	position: absolute;
+	color: #2fbd2f;
+	font-size: 20px;
+	background-color: white;
+	align-items: center;
+	margin: center;
+	bottom: 50px;
+}
+
+#service
+{
+	height: 560px;
+	background-color: white;
+	position: relative;
+}
+
+#download
+{
+	height: 560px;
+	background-color: #50c550;
+	position: relative;
+}
+
+#news
+{
+	height: 800px;
+	background-color: white;
+	position: relative;
+}
+
+#bottom-menu
+{
+	height: 660px;
+	background-color: #50c550;
+	position: relative;
+}
+
+#footer
+{
+	height: 80px;
+	background-color: gray;
+	position: relative;
+}
